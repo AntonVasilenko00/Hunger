@@ -1,0 +1,12 @@
+.galerie {
+	max-width: 100%;
+	display: flex;
+	// flex-wrap: wrap;
+	& > * {
+		flex: 1 1 auto;
+	}
+	img {
+		width: 10%;
+		height: auto;
+	}
+}

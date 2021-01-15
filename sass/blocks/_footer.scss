@@ -1,0 +1,19 @@
+.footer {
+	height: 100px;
+	background-color: #1a1a1a;
+	color: $clr-primary;
+}
+.footer__container {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container {
+}
+.footer__item {
+}
+.footer__bio {
+	margin-left: auto;
+	// justify-self: flex-end;
+}

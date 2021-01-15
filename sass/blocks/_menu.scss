@@ -1,0 +1,58 @@
+.menu {
+	// height: 100vh;
+	padding: 10vh 0;
+}
+.menu__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.menu__title {
+}
+.menu__text {
+	margin-top: 10px;
+	text-align: center;
+	width: 30%;
+}
+.menu__submenu {
+	margin-top: 50px;
+}
+.submenu {
+	display: flex;
+	flex-wrap: wrap;
+}
+.submenu__item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 120px;
+	height: 50px;
+	border-right: 1px solid rgba(#333, 0.2);
+}
+.submenu__link {
+	display: block;
+}
+.menu__content {
+	max-width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+	align-items: center;
+	justify-content: space-between;
+	column-gap: 90px;
+	row-gap: 10px;
+	margin-top: 50px;
+}
+.menu__item {
+}
+.menu__item-name {
+	font-weight: 700;
+	font-size: 18px;
+	font-family: "BannyRound";
+}
+.menu__item-price {
+}
+.menu__item-description {
+	font-size: 12px;
+	line-height: 1.5;
+	color: rgba(#333, 0.5);
+}

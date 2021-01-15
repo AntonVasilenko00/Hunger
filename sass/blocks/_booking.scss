@@ -1,0 +1,31 @@
+.booking {
+}
+.booking__container {
+	padding-top: 7.5vh;
+}
+.booking__left {
+}
+.booking__heading {
+	font-size: 36px;
+	// padding-bottom: 20px;
+	font-weight: 700;
+	// font-family: "Open sans";
+	margin-bottom: 20px;
+}
+.booking__form {
+	max-width: 90%;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	grid-template-rows: auto;
+	gap: 10px;
+	.form__button {
+		grid-column: 1 / -1;
+	}
+}
+.booking__right {
+}
+.booking__img {
+}
+.booking__info {
+	opacity: 0.5;
+}
