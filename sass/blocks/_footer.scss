@@ -6,14 +6,31 @@
 .footer__container {
 	height: 100%;
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-evenly;
 }
 .container {
 }
 .footer__item {
 }
 .footer__bio {
-	margin-left: auto;
-	// justify-self: flex-end;
+	// margin-left: auto;
+	justify-self: flex-end;
+}
+
+@media (max-width: 360px) {
+	.footer {
+		height: auto;
+	}
+	.footer__bio,
+	.footer__item {
+		margin: 8px 0;
+		padding: 16px;
+		background: lighten(#1a1a1a, 2);
+		border-radius: 5px;
+	}
+	.footer__bio {
+		order: -1;
+	}
 }

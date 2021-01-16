@@ -1,25 +1,34 @@
 .booking {
 }
 .booking__container {
-	padding-top: 7.5vh;
+	> *:first-child {
+		height: 90vh;
+	}
+
+	> *:last-child {
+		height: 10vh;
+	}
 }
 .booking__left {
 }
 .booking__heading {
+	height: 10vh;
 	font-size: 36px;
-	// padding-bottom: 20px;
 	font-weight: 700;
-	// font-family: "Open sans";
 	margin-bottom: 20px;
 }
 .booking__form {
-	max-width: 90%;
+	// max-width: 90%;
+	margin: 0 auto;
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: auto;
 	gap: 10px;
 	.form__button {
 		grid-column: 1 / -1;
+	}
+	.form__input[type="date"] {
+		resize: none;
 	}
 }
 .booking__right {
@@ -28,4 +37,10 @@
 }
 .booking__info {
 	opacity: 0.5;
+}
+
+@media (max-width: 500px) {
+	.booking__form {
+		grid-template-columns: repeat(1, 1fr);
+	}
 }
