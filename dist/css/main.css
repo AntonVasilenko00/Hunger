@@ -550,7 +550,7 @@ img {
 .contact__text {
   margin-top: 30px;
   text-align: center;
-  width: 27%;
+  max-width: 600px;
 }
 
 .contact__form {
@@ -576,15 +576,26 @@ img {
 }
 
 .contact__icon-links {
+  flex-wrap: wrap;
   grid-column: span 3;
 }
 
 @media (max-width: 1024px) {
   .contact__form {
-    box-sizing: border-box;
-    max-width: 100%;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    grid-template-rows: repeat(auto-fill, 1fr);
+    width: 100%;
+    padding: 20px;
+  }
+  .contact__icon-links {
+    grid-column: span 6;
+  }
+  .contact__form .form__button {
+    grid-column: span 6;
+  }
+}
+
+@media (max-width: 425px) {
+  .contact__form .form__input {
+    grid-column: span 6;
   }
 }
 
