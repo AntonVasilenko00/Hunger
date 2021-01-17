@@ -1,9 +1,6 @@
 // --- Double section block ---
 .double-section {
 	height: 100vh;
-	// display: flex;
-	// flex-direction: column;
-	// justify-content: space-between;
 }
 
 .double-section__top,
@@ -15,9 +12,7 @@
 }
 
 .double-section__main {
-	// margin: auto 0;
 	height: 70vh;
-	// padding: 10vh 0;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	& > * {
@@ -32,9 +27,6 @@
 	// width: min-max(100%, 600px);
 	text-align: center;
 	gap: 20px;
-}
-
-.article__title {
 }
 
 .article__strong-text {
@@ -69,10 +61,6 @@
 	padding: 20px 30px;
 	background-color: $clr-form-bg;
 }
-.form__text-area {
-}
-.form__links {
-}
 // --- Icon links ---
 .icon-links {
 	display: flex;
@@ -89,8 +77,6 @@
 .icon-links__icon {
 	color: $clr-primary;
 	margin-right: 5px;
-}
-.icon-links__link {
 }
 
 // --- Small components ---
@@ -122,7 +108,6 @@
 	justify-self: left;
 	position: relative;
 	&:hover::before {
-		//background-color: darken($clr-primary, 20%);
 		transform: translate(50%, -50%) rotate(45deg);
 		backdrop-filter: blur(3px);
 		border-radius: 20%;
@@ -145,7 +130,6 @@
 
 .img-wrapper--reversed {
 	margin: 0 0 0 125px;
-	// display: inline;
 	justify-self: right;
 	&:hover::before {
 		transform: translate(50%, -50%) rotate(45deg);
@@ -262,13 +246,10 @@
 }
 
 .btn--outline {
-	// transition: backdrop-filter 0.1s linear !important;
 	border: 1px solid rgba(#fff, 0.5);
 	&:hover {
 		color: #000;
 		background-color: #fff;
-		// opacity: 0.8;
-		// backdrop-filter: blur(12px);
 	}
 }
 

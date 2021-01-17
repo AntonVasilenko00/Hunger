@@ -1,5 +1,3 @@
-.booking {
-}
 .booking__container {
 	> *:first-child {
 		height: 90vh;
@@ -9,16 +7,13 @@
 		height: 10vh;
 	}
 }
-.booking__left {
-}
+
 .booking__heading {
-	// height: 10vh;
 	font-size: 36px;
 	font-weight: 700;
 	margin-bottom: 20px;
 }
 .booking__form {
-	// max-width: 90%;
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -31,10 +26,7 @@
 		resize: none;
 	}
 }
-.booking__right {
-}
-.booking__img {
-}
+
 .booking__info {
 	opacity: 0.5;
 }

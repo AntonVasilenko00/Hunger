@@ -20,8 +20,6 @@
 	top: 54%;
 }
 .hero__aside-text {
-	// position: absolute;
-	// left: -50%;
 	transform-origin: center;
 	text-align: center;
 }
@@ -39,7 +37,6 @@
 .hero__btn-group {
 	width: 55%;
 	display: flex;
-	// flex-wrap: wrap;
 	justify-content: space-between;
 	margin: 5vh auto;
 }
@@ -131,7 +128,6 @@
 		flex-wrap: wrap;
 		flex-direction: row;
 		width: 100%;
-		// margin: 40px 0;
 	}
 
 	.hero__btn-1,
@@ -148,17 +144,11 @@
 	.hero__aside-text {
 		transform: rotate(0);
 	}
-	.hero__scroll-btn {
-		// margin: 0;
-	}
 }
 
 @media (max-width: 490px) {
 	.hero__main {
 		margin-top: 5vh;
-	}
-	.hero__btn-group {
-		// margin-top: 10vh;
 	}
 	.hero__btn-1,
 	.hero__btn-2 {
