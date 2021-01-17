@@ -3,22 +3,27 @@
 	@include background("/dist/assets/img/Private Events.jpg");
 	color: #fff;
 }
-.events__container {
-}
-.events__heading {
-}
-
 .events__main {
-	// overflow: hidden;
+	gap: 40px;
 }
-
 .events__img-left {
 	display: inline-block;
 }
 .events__img-right {
 	display: inline-block;
 }
-.double-section__bottom {
+
+@media (max-width: 1024px) {
+	.events__main > .img-wrapper,
+	.events__main > .img-wrapper--reverse {
+		display: block;
+		.img-wrapper__item {
+			margin-top: 0;
+		}
+	}
 }
-.events__info {
+@media (max-width: 768px) {
+	.events {
+		display: none;
+	}
 }

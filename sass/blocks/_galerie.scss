@@ -4,9 +4,16 @@
 	// flex-wrap: wrap;
 	& > * {
 		flex: 1 1 auto;
-	}
-	img {
 		width: 10%;
 		height: auto;
+	}
+}
+
+@media (max-width: 490px) {
+	.galerie {
+		flex-wrap: wrap;
+		& > * {
+			min-width: 125px;
+		}
 	}
 }
