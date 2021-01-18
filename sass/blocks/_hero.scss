@@ -2,7 +2,7 @@
 	padding-top: 100px;
 	min-height: 100vh;
 	width: 100%;
-	@include background("/dist/assets/img/header-bg.png");
+	@include background("dist/assets/img/header-bg.png");
 	color: #fff;
 	z-index: -1;
 }
