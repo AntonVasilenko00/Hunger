@@ -2,10 +2,10 @@
 	max-width: 100%;
 
 	// for safari
-	min-height: unset;
 	display: flex;
 
 	& > * {
+		min-height: unset;
 		flex: 1 1 auto;
 		width: 10%;
 		height: auto;

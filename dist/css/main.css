@@ -885,11 +885,11 @@ img {
 
 .galerie {
   max-width: 100%;
-  min-height: unset;
   display: flex;
 }
 
 .galerie > * {
+  min-height: unset;
   flex: 1 1 auto;
   width: 10%;
   height: auto;
