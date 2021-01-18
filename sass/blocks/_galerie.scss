@@ -1,6 +1,10 @@
 .galerie {
 	max-width: 100%;
+
+	// for safari
+	min-height: unset;
 	display: flex;
+
 	& > * {
 		flex: 1 1 auto;
 		width: 10%;

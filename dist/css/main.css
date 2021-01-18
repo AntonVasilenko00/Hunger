@@ -885,6 +885,7 @@ img {
 
 .galerie {
   max-width: 100%;
+  min-height: unset;
   display: flex;
 }
 
