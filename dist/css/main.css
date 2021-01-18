@@ -894,15 +894,6 @@ img {
   height: auto;
 }
 
-@media (max-width: 490px) {
-  .galerie {
-    flex-wrap: wrap;
-  }
-  .galerie > * {
-    min-width: 125px;
-  }
-}
-
 .contact__container {
   min-height: 100vh;
   display: flex;
