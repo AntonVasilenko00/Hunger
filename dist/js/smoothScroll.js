@@ -2,8 +2,6 @@
 // @ https://perishablepress.com/vanilla-javascript-scroll-anchor/
 
 (function() {
-    if(navigator.userAgent.indexOf("Safari") > -1){
-
         $(document).ready(function(){
             // Add smooth scrolling to all links
             $("a").on('click', function(event) {
