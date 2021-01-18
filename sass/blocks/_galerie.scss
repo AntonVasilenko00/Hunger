@@ -3,6 +3,7 @@
 
 	// for safari
 	display: flex;
+	flex-wrap: wrap;
 
 	& > * {
 		min-height: unset;
@@ -14,7 +15,6 @@
 
 // @media (max-width: 490px) {
 // 	.galerie {
-// 		flex-wrap: wrap;
 // 		& > * {
 // 			// min-width: 125px;
 // 		}
