@@ -4,9 +4,11 @@
 	// for safari
 	display: flex;
 	flex-wrap: wrap;
+	img {
+		display: none;
+	}
 
 	& > * {
-		display: none;
 		flex: 1 1 auto;
 		width: 10%;
 		height: auto;

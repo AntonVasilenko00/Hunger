@@ -889,8 +889,11 @@ img {
   flex-wrap: wrap;
 }
 
-.galerie > * {
+.galerie img {
   display: none;
+}
+
+.galerie > * {
   flex: 1 1 auto;
   width: 10%;
   height: auto;
