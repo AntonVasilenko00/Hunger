@@ -890,10 +890,16 @@ img {
 }
 
 .galerie > * {
-  min-height: unset;
   flex: 1 1 auto;
   width: 10%;
   height: auto;
+}
+
+@media (max-width: 490px) {
+  .galerie > * {
+    display: none;
+    min-height: unset;
+  }
 }
 
 .contact__container {

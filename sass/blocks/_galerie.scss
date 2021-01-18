@@ -6,17 +6,18 @@
 	flex-wrap: wrap;
 
 	& > * {
-		min-height: unset;
 		flex: 1 1 auto;
 		width: 10%;
 		height: auto;
 	}
 }
 
-// @media (max-width: 490px) {
-// 	.galerie {
-// 		& > * {
-// 			// min-width: 125px;
-// 		}
-// 	}
-// }
+@media (max-width: 490px) {
+	.galerie {
+		& > * {
+			display: none;
+			min-height: unset;
+			// min-width: 125px;
+		}
+	}
+}
